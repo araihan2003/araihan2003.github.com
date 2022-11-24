@@ -6,29 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Page</title>
     <style>
-        div{
-            margin: 30px;
+        #container {            
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #container > div {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
             padding: 20px;
-            border: solid 1px;
+            border: solid 1px rgb(255, 166, 0);
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <h2>This is my test page in github site !</h2>
-    <div>
-        <ol>
-            <il>First Test</il>
-            <il>Second Test
-                <ul>
-                    <il>Sub 1 test</il>
-                    <il>Sub 2 test</il>
-                    <il>Sub 3 test</il>
-                </ul>
-            </il>
-            <il>Third Test</il>
-            <il>Forth Test</il>
-        </ol>
-
+    <h3>This is my test page in github site !</h3>
+    <div id="container">
+        <div>
+            <ol>
+                <li>First Test</li>
+                <li>Second Test
+                    <ul>
+                        <li>Sub 1 test</li>
+                        <li>Sub 2 test</li>
+                        <li>Sub 3 test</li>
+                    </ul>
+                </li>
+                <li>Third Test</li>
+                <li>Forth Test</li>
+            </ol>
+        </div>
+        <div>This test </div>
+        <div>This test </div>
+        <div>This test </div>
+        <div>This test </div>
+        <div>This test </div>
+        <div>This test </div>
+        <div>This test </div>
+        <div>This test </div>
+        <div>This test </div>
     </div>
 </body>
 </html>
